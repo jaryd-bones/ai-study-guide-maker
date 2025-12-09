@@ -1,0 +1,118 @@
+.studyGuideDetailDescription {
+  color: #e5e7eb;
+  opacity: 0.9;
+  font-size: 0.95rem;
+}
+
+.editableInline {
+  border: 1px solid transparent;
+  border-radius: 0.375rem;
+  padding: 0.15rem 0.4rem;
+  transition: border-color 0.2s ease;
+}
+
+.editableInlineActive {
+  border-color: #f9fafb;
+}
+
+.editableInline[contenteditable="true"]:focus {
+  outline: none;
+}
+
+.editSection {
+  overflow: hidden;
+  transition:
+    max-height 0.4s ease,
+    opacity 0.45s ease,
+    transform 0.45s ease;
+}
+
+.editSectionHidden {
+  max-height: 0;
+  opacity: 0;
+  transform: translateY(-4px);
+  pointer-events: none;
+}
+
+.editSectionVisible {
+  max-height: 500px;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Existing styles */
+
+.studyGuideDetailDescription {
+  color: #e5e7eb;
+  opacity: 0.9;
+  font-size: 0.95rem;
+}
+
+.editableInline {
+  border: 1px solid transparent;
+  border-radius: 0.375rem;
+  padding: 0.15rem 0.4rem;
+  transition: border-color 0.2s ease;
+}
+
+.editableInlineActive {
+  border-color: #f9fafb;
+}
+
+.editableInline[contenteditable="true"]:focus {
+  outline: none;
+}
+
+.editSection {
+  overflow: hidden;
+  transition:
+    max-height 0.4s ease,
+    opacity 0.45s ease,
+    transform 0.45s ease;
+}
+
+.editSectionHidden {
+  max-height: 0;
+  opacity: 0;
+  transform: translateY(-4px);
+  pointer-events: none;
+}
+
+.editSectionVisible {
+  max-height: 500px;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.flashcardItemCard {
+  border: none;
+  border-radius: 0.75rem;
+  background-color: #f3f4f6;
+}
+
+.flashcardItemCardBody {
+  border-radius: inherit;
+  background-color: transparent;
+  width: 100%;
+}
+
+.flashcardItemHeaderRow {
+  width: 100%;
+}
+
+.flashcardItemActions {
+  column-gap: 0.5rem;
+}
+
+.flashcardItemFrontText {
+  white-space: pre-wrap;
+}
+
+.flashcardItemBackText {
+  white-space: pre-wrap;
+  color: #6b7280;
+}
+
+.flashcardItemFormActions {
+  width: 100%;
+}

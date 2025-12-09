@@ -1,0 +1,29 @@
+.studyGuideCard {
+  border: none;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  background: #ffffff;
+}
+
+.studyGuideCardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.studyGuideTitle {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.studyGuideDescription {
+  margin: 0.25rem 0 0.75rem;
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+.studyGuideFooter {
+  display: flex;
+  justify-content: flex-end;
+}

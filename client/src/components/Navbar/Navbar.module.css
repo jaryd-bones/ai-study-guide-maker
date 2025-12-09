@@ -1,0 +1,83 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1.5rem;
+  background: #020617;
+  border-bottom: 1px solid #1f2937;
+}
+
+.navbarBrand {
+  position: relative;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+  transition: color 0.2s ease;
+}
+
+.navbarBrand::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  width: 0%;
+  height: 2px;
+  background-color: #ffffff;
+  transition: width 0.25s ease;
+}
+
+.navbarBrand:hover::after,
+.navbarBrand:focus-visible::after {
+  width: 100%;
+}
+
+.navbarBrand:focus-visible {
+  outline: none;
+}
+
+.navbarRight {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.navbarUser {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.navbarLoginLink {
+  position: relative;
+  display: inline-block;
+  color: #f2f2f2;
+  opacity: 0.8;
+  padding: 0;
+  background: none;
+  border: none;
+  text-decoration: none;
+  font-size: 0.9rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.navbarLoginLink::after {
+  content: "";
+  position: absolute;
+  left: 1px;
+  bottom: -2px;
+  width: 0%;
+  height: 2px;
+  background-color: #ffffff;
+  transition: width 0.25s ease;
+}
+
+.navbarLoginLink:hover::after,
+.navbarLoginLink:focus-visible::after {
+  width: 100%;
+}
+
+.navbarLoginLink:hover,
+.navbarLoginLink:focus-visible {
+  opacity: 1;
+}

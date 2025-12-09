@@ -1,0 +1,57 @@
+.track {
+  position: relative;
+  width: 56px;
+  height: 28px;
+  border-radius: 999px;
+  border: none;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+  outline: none;
+  background-color: #3b82f6;
+  box-shadow: 0 0 0 1px rgba(15, 23, 42, 0.08);
+  transition: box-shadow 0.2s ease, transform 0.1s ease;
+}
+
+.track:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.track:focus-visible {
+  box-shadow:
+    0 0 0 1px rgba(15, 23, 42, 0.08),
+    0 0 0 3px rgba(59, 130, 246, 0.5);
+}
+
+.knob {
+  width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(15, 23, 42, 0.25);
+  transform: translateX(28px);
+  transition: transform 0.2s ease;
+}
+
+.label {
+  display: inline-block;
+  min-width: 110px;
+  text-align: center;
+  font-size: 0.85rem;
+  transition: color 0.2s ease, opacity 0.2s ease, font-weight 0.2s ease;
+}
+
+.labelActive {
+  font-weight: 600;
+  color: #0f172a;
+  opacity: 1;
+}
+
+.labelInactive {
+  font-weight: 400;
+  color: #9ca3af;
+  opacity: 0.7;
+}

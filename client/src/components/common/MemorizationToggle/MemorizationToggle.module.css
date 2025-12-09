@@ -1,0 +1,15 @@
+.memorizationLabelWideLeft {
+  min-width: 90px;
+  margin-left: 0;
+  margin-right: 10px;
+  padding-left: 0;
+  font-size: 0.85rem;
+  text-align: left;
+}
+
+.memorizationLabelWideRight {
+  margin-left: 15px;
+  padding-left: 0;
+  font-size: 0.85rem;
+  text-align: left;
+}

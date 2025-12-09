@@ -1,0 +1,35 @@
+.modeSection {
+  transition:
+    max-height 0.25s ease,
+    opacity 0.25s ease,
+    transform 0.25s ease;
+}
+
+.modeSectionHidden {
+  max-height: 0;
+  opacity: 0;
+  transform: translateY(-4px);
+  pointer-events: none;
+}
+
+.modeSectionVisible {
+  max-height: 800px;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.uploadTypeToggleLabelWideLeft {
+  min-width: 30px;
+  margin-left: 0;
+  margin-right: 10px;
+  padding-left: 0;
+  font-size: 0.85rem;
+  text-align: left;
+}
+
+.uploadTypeToggleLabelWideRight {
+  margin-left: 15px;
+  padding-left: 0;
+  font-size: 0.85rem;
+  text-align: left;
+}
