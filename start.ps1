@@ -6,10 +6,9 @@ Write-Host "Starting PostgreSQL database (Docker)..."
 # Start DB container
 docker compose up -d db
 
-# Wait for DB to become ready
+# Wait for DB to be ready
 Write-Host "Waiting for database to be ready..."
 Start-Sleep -Seconds 3
-
 
 # Start Backend
 Write-Host "Starting backend (FastAPI)..."
