@@ -1,8 +1,10 @@
 AI Study Guide Maker
 
+![AI Study Guide Maker demo](assets/demo.gif)
+
 Project Overview
 ----------------
-AI Study Guide Maker is a full stack web application built to automate the process of turning lecture notes and study materials into structured flashcard sets. It reduces manual study prep by converting raw text, PDFs, or images into organized, review-ready content using GPT-4o mini.
+AI Study Guide Maker is a full stack web application built to automate the process of turning lecture notes and study materials into structured flashcard sets. It reduces manual study prep by converting raw text, PDFs, or images into organized, review-ready content using an LLM.
 
 The application is split into two parts: a Vite + React frontend that provides the user interface, and a FastAPI backend that handles file and text ingestion, OCR and PDF extraction, AI driven content generation, persistence, and token based authentication.
 
