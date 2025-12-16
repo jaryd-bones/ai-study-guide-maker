@@ -13,7 +13,6 @@ Key Features
 - Upload support for PDFs and images using OCR (`pytesseract`) and PDF text extraction (`PyMuPDF`).
 - AI integration that requests strict JSON output and validates and normalizes results on the server.
 - Full CRUD support for study guides and flashcards via REST endpoints.
-- Local-first developer experience using Vite (frontend) and FastAPI/Uvicorn (backend).
 
 Tech Stack
 ----------
